@@ -1,0 +1,318 @@
+CSS rules to specify families font-family * {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(0, 255, 191);
+    /* rgb(0, 255, 191);*/
+    /*rgb(3, 252, 223);*/
+    width: 325px;
+    height: 100vh;
+    transition: transform 0.4s ease-in;
+}
+
+.sidebar nav {
+    padding: 1px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-family: 'Baloo 2', cursive;
+    font-size: 30px;
+    padding: 10px 0;
+
+}
+
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: rgb(5, 5, 88);
+    font-weight: bold;
+}
+
+.main {
+    width: 84vw;
+    display: inline-block;
+    background-color: rgb(255, 204, 153);
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    height: 60vh;
+    width: 80vw;
+    margin: 85px 0;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 9px;
+    background-color: white;
+}
+
+.pic img {
+    margin-top: 0;
+    height: 60vh;
+    width: 25vw;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.hello {
+    font-size: 65px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.name {
+    font-size: 50px;
+    
+    font-weight: bold;
+
+}
+
+.about {
+    font-size: 40px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.btn {
+    margin-top: 34px;
+
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(0, 255, 191);
+    color: rgb(5, 5, 88);
+    border: 2px solid rgb(5, 5, 88);
+    border-radius: 19px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    color: black;
+    background-color: rgb(153, 218, 255);
+
+    background-color: rgb(255, 204, 153);
+    border-color: black;
+    border-radius: 19px;
+    font-weight: bold;
+}
+
+.moreabout {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 19px;
+    margin-top: 5px;
+}
+
+.contactform {
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 10px;
+    color: black;
+    padding: 0 34px;
+    padding-top: 91px;
+
+}
+
+.contactform h1 {
+    font-family: 'Baloo 2', cursive;
+    padding-top: 28px;
+}
+
+.contactform form div {
+    padding: 13px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 20vw;
+    border-radius: 10px;
+    padding: 1px 3px;
+    margin: 3px 0;
+    font-size: 17px;
+}
+
+#emailHelp {
+
+    font-size: 16px;
+    color: rgb(5, 5, 61);
+    font-weight: bold;
+}
+
+.contactform form .mb-3 form-check {
+    display: flex;
+    flex-direction: row;
+}
+
+#button {
+    width: 7vw;
+    margin: 10px 0;
+
+}
+
+.contactform form div label {
+    font-weight: bold;
+
+}
+
+.myintro h1 {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.myintro p {
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blog {
+    padding: 0 8px;
+}
+
+.skill {
+    width: 265px;
+    height: 4px;
+    background-color: red;
+    margin-top: 8px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.skillbox {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.hundred {
+    width: 275px;
+}
+
+.fifty {
+    width: 125px;
+    background-color: yellow
+}
+
+.semi {
+    width: 200px;
+    background-color: blue;
+
+}
+
+.skillbox {
+    font-weight: bold;
+    padding-top: 8px;
+    font-size: 19px;
+}
+
+.imgs {
+    height: 29px;
+    width: 29px;
+    border: 1px solid black;
+    margin-left: 4px;
+}
+
+@media(max-width:115px) {
+    * {
+        background-color: #e68d8d;
+    }
+}
+
+
+
+.edu {
+    border: 14px ridge rgb(0, 255, 191);
+    background-color: white;
+    width: 40vw;
+    height: 60vh;
+    margin: 131px auto;
+}
+
+.educatn {
+    /* margin-left: 10px;*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+}
+
+.idea {
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+}
+
+.achieve .list li img {
+    height: 14px;
+    width: 20px;
+}
+
+.achieve .list li {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contain {
+    margin-top: 7px;
+}
+
+
+
+
+
+#ch {
+    font-size: 30px;
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+}
+
+.sort {
+    margin-top: 32px;
+    margin-left: -202px;
+}
+
+.list {
+    margin-top: 15px;
+}
+
+.box {
+    padding-left: 300px;
+}
+
+.introductn {
+    margin-left: 10px;
+}
+
+.introductn li {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
